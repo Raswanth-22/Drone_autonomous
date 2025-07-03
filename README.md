@@ -3,9 +3,6 @@
 
 
 
-## Modules
-
-*********
 
 ### Mapping
 * Mapping has been done using Octomap  
