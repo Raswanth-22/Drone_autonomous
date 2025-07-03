@@ -6,7 +6,7 @@
 
 ### Mapping
 * Mapping has been done using Octomap  
-* Fixed size euclidean distance map is computed using EDT3D Library (https://github.com/OctoMap/octomap/tree/devel/dynamicEDT3D) for collision check.
+* Fixed size euclidean distance map is computed using EDT3D Library for collision check.
 * Fixed Size EDT map gets updated around the drone after it travels a threshold distance from the previous location at which map was updated (here threshold is 1 metres).
 * Point cloud from the RGBD sensor (RealSense D415 and D455 were tested) is downsampled using pcl_ros
 * Zero mean Gaussian noise is added on the point cloud using pcl library
@@ -34,7 +34,7 @@
 #
 
 ### Planning
-* Path planning is done using Fast-Planner (https://github.com/HKUST-Aerial-Robotics/Fast-Planner) developed by HKUST Aerial Robotics Group
+* Path planning is done using Fast-Planner developed by HKUST Aerial Robotics Group
 * Changes have been made in the source code in order to use it with Octomap.
 * Goal location is currently given in cartesian coordinates (using RViZ 2D Nav Goal and height of the goal is taken from the user)
 
